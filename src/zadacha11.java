@@ -15,7 +15,9 @@ public class zadacha11 {
         System.out.println("Enter number from 1 tot 99");
         int cop = sc.nextInt();
 
-        if(cop == 1 || cop%10 == 1 ){
+        if (cop >= 11 & cop <= 20) {
+            System.out.println(+cop + " копеек");
+        }else if(cop == 1 || cop%10 == 1 ){
             System.out.println(+ cop + " копейка");
         }else if(cop >= 2 & cop <= 4 || cop%10 == 2 || cop%10 == 3 || cop%10 == 4 ){
             System.out.println(+ cop + " копейки");

@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 /**
  * Created by Nataly on 04.12.2016.
+
+ 7) Ввести с экрана число от 1 до 12. По номеру месяца выдать сообщение о
+ времени года. Если пользователь введет недопустимое число, программа
+ должна выдать сообщение об ошибке.
  */
 public class zadacha7 {
     public static void main(String[] args) {
@@ -17,7 +21,7 @@ public class zadacha7 {
         } else if (month >= 6 && month <= 8) {
             System.out.println("summer");
         } else if (month >= 9 && month <= 11) {
-            System.out.println("Autimn");
+            System.out.println("Autumn");
         } else {
             System.out.println("wrong number");
         }
