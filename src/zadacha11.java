@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.Scanner;
 
 /**
@@ -15,20 +17,16 @@ public class zadacha11 {
         System.out.println("Enter number from 1 tot 99");
         int cop = sc.nextInt();
 
-        if (cop >= 11 & cop <= 20) {
-            System.out.println(+cop + " копеек");
-        }else if(cop == 1 || cop%10 == 1 ){
-            System.out.println(+ cop + " копейка");
-        }else if(cop >= 2 & cop <= 4 || cop%10 == 2 || cop%10 == 3 || cop%10 == 4 ){
-            System.out.println(+ cop + " копейки");
-        }else if (cop >= 5 & cop <= 99 ) {
-            System.out.println(+cop + " копеек");
-        }else{
+        if (cop > 100) {
             System.out.println("Error input! Wrong number");
+        } else if (cop >= 11 & cop <= 20) {
+            System.out.println(+cop + " копеек");
+        } else if (cop == 1 || cop % 10 == 1) {
+            System.out.println(+cop + " копейка");
+        } else if (cop >= 2 & cop <= 4 || cop % 10 == 2 || cop % 10 == 3 || cop % 10 == 4) {
+            System.out.println(+cop + " копейки");
+        } else if (cop >= 5 & cop <= 99) {
+            System.out.println(+cop + " копеек");
         }
-
-
-
     }
-
 }
