@@ -1,9 +1,11 @@
+package week1;
+
 import java.util.Scanner;
 
 /**
  * Created by Nataly on 07.12.2016.
  4.2. Пользователь вводит три числа с консоли, нужно вывести на консоль наибольшее, наименьшее*/
-public class zadacha4_2 {
+public class Zadacha4_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

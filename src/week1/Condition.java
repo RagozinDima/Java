@@ -1,10 +1,12 @@
+package week1;
+
 import javax.lang.model.element.NestingKind;
 import java.util.Scanner;
 
 /**
  * Created by Nataly on 04.12.2016.
  */
-public class condition {
+public class Condition {
     public static void main(String[] args) {
 
         String login = "dima";

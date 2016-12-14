@@ -1,9 +1,11 @@
+package week1;
+
 import java.util.Scanner;
 
 /**
  * Created by Nataly on 04.12.2016.
  */
-public class luckyNumber14 {
+public class LuckyNumber14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number(6digits): ");
@@ -16,7 +18,7 @@ public class luckyNumber14 {
         int fourth =(number / 100) % 10;
         int fifth =(number / 10) %10;
         int sixth = number % 10;
-        
+
 
     }
 

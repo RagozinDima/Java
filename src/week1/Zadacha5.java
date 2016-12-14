@@ -1,8 +1,10 @@
+package week1;
+
 /**
  * Created by Nataly on 04.12.2016.
  * Даны 3 числа a b c Определись, имеется ли среди них хотя бы одна пара равных
  */
-public class zadacha5 {
+public class Zadacha5 {
     public static void main(String[] args) {
         int a = 15;
         int b = 15;

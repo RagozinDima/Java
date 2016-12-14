@@ -1,3 +1,5 @@
+package week1;
+
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
@@ -8,7 +10,7 @@ import java.util.Scanner;
     Выдать рекомендации о необходимости поправиться либо похудеть.*/
 
 
-public class zadacha9 {
+public class Zadacha9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String men = "Men";

@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 /**
@@ -5,7 +7,7 @@ import java.util.Scanner;
  Ввести с клавиатуры значения трех сторон треугольника a, b и c и опреде-
  лить, является ли он прямоугольным. Ответ
  вывести в виде сообщения.*/
-public class zadacha1 {
+public class Zadacha1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

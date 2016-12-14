@@ -1,3 +1,5 @@
+package week1;
+
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
@@ -7,7 +9,7 @@ import java.util.Scanner;
  8) Вычислить стоимость покупки с учетом скидки. Скидка в 10% предос-
  тавляется, если сумма покупки превышает 1000 гривен.
  */
-public class zadacha8 {
+public class Zadacha8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

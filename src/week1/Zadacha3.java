@@ -1,8 +1,10 @@
+package week1;
+
 /**
  * Created by Nataly on 07.12.2016.
  3) Дано трехзначное число. Определить: а) верно ли, что все его цифры
  одинаковые; б) есть ли среди его цифр одинаковые.*/
-public class zadacha3 {
+public class Zadacha3 {
     public static void main(String[] args) {
         int n = 123;
 

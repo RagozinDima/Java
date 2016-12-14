@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Scanner;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Scanner;
  времени года. Если пользователь введет недопустимое число, программа
  должна выдать сообщение об ошибке.
  */
-public class zadacha7 {
+public class Zadacha7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

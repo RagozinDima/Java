@@ -1,9 +1,11 @@
+package week1;
+
 import java.util.Scanner;
 
 /**
  * Created by Nataly on 07.12.2016.
  4.5. Вводим 2 числа. Если первое число больше второго, то вывести на экран разницу чисел. Если второе больше, то выводим сумму.*/
-public class zadacha4_5 {
+public class Zadacha4_5 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

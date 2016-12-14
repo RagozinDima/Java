@@ -1,3 +1,5 @@
+package week1;
+
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
@@ -10,7 +12,7 @@ import java.util.Scanner;
  копейка, 5 копеек, 42 копейки .
 
  */
-public class zadacha11 {
+public class Zadacha11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
