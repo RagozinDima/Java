@@ -11,8 +11,6 @@ public class Zadacha1 {
         int[] arr = ArrayUtils.createAndFillRandomArray(10);
         ArrayUtils.printArray(arr);
 
-        int min = ArrayUtils.findMin(arr);
-        int max = ArrayUtils.findMax(arr);
         ArrayUtils.printMinMax(arr);
 
     }

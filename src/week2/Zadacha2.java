@@ -9,8 +9,10 @@ public class Zadacha2 {
     public static void main(String[] args) {
         int[] arr = ArrayUtils.createAndFillRandomArray(5);
         ArrayUtils.printArray(arr);
-        ArrayUtils.swapMinMax(arr);
 
+        ArrayUtils.printMinMax(arr);
+        ArrayUtils.swapMinMax(arr);
+        ArrayUtils.printArray(arr);
 
     }
 

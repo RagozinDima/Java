@@ -9,12 +9,17 @@ public class Zadacha3 {
     public static void main(String[] args) {
         int [] arr = ArrayUtils.createAndFillRandomArray(10);
         int [] arr2 = new int[10];
+
         ArrayUtils.printArray(arr);
         System.out.println();
         ArrayUtils.printArray(arr2);
         System.out.println();
 
-        ArrayUtils.swapArr(arr, arr2);
+        ArrayUtils.copyArr(arr, arr2);
+        System.out.println("-------------------------");
+        ArrayUtils.printArray(arr);
+        System.out.println();
+        ArrayUtils.printArray(arr2);
 
 
 
