@@ -23,7 +23,7 @@ public class Group {
         return name;
     }
 
-    public void searchStudent (){
+    /*public void searchStudent (){
         String enterName;
         for (int i = 0; i <students.length; i++) {
             if(enterName == students[i])
@@ -31,5 +31,5 @@ public class Group {
         }
 
 
-    }
+    }*/
 }

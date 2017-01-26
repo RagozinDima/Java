@@ -6,7 +6,10 @@ package oop.week1.book;
 public class Run {
     public static void main(String[] args) {
 
-        Izdanie[] izdanies = {new Spravochnik(), new Encyclopedia()};
+        Spravochnik spravochnik = new Spravochnik();
+        Encyclopedia encyclopedia = new Encyclopedia();
+
+        Izdanie[] izdanies = {spravochnik,encyclopedia};
 
         for (int i = 0; i < izdanies.length; i++) {
             izdanies[i].asString();
